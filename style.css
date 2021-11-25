@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing:border-box;
 }
+nav{
+    max-width: 960px;
+    margin-left: 320px;
+}
 .topnav {
     display: flex; /* Gør at topnav-boksen bliver en flexbox --> giver muligheder for at rykke komponenter i pgl. box */
     align-items: center; /*Gør at topnav aligner efter midten af headerbackground */
@@ -29,7 +33,13 @@ body{
 }
 .icon{
     width: 100px;
-    height:auto;
-    margin-right: 380px;
-    margin-top: 10px;
+    height:100px;
+    float: left;
+    display: flex;
+    justify-content:left;
+    align-content: left;
+    }
+
+@media screen and (min-width:600px){
+    
 }
