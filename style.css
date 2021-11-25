@@ -3,15 +3,14 @@
     margin: 0;
     box-sizing:border-box;
 }
-nav{
-    
-}
 .topnav {
     display: flex; /* Gør at topnav-boksen bliver en flexbox --> giver muligheder for at rykke komponenter i pgl. box */
     align-items: center; /*Gør at topnav aligner efter midten af headerbackground */
     width: 100%; 
     height: 100%;
     justify-content: right; /*Rykker tekst til højre side */
+    max-width: 90%;
+    float: right;
 }
 .topnav ul { /* Dette gør at den KUN styler liste i topnav */
     display: flex; /* Flexbox gør ALTID at den styler vandret */
@@ -30,12 +29,10 @@ body{
     background-image: linear-gradient(90deg, #696969, #001833)
 }
 .icon{
-    width: 100px;
-    height:100px;
-    float: left;
     display: flex;
-    justify-content:left;
-    align-content: left;
+    max-width: 100px;
+    height: 100px;
+    float: left;
     }
 
 @media screen and (min-width:600px){
