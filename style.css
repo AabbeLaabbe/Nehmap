@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing:border-box;
 }
+
 .topnav {
     display: flex; /* Gør at topnav-boksen bliver en flexbox --> giver muligheder for at rykke komponenter i pgl. box */
     align-items: center; /*Gør at topnav aligner efter midten af headerbackground */
@@ -35,6 +36,50 @@ body{
     float: left;
     }
 
-@media screen and (min-width:600px){
+    footer {
+        background-color: #a7b3d8;
+        color: #000000;
+        width: 100%;
+        text-align: left;
+        padding: 10px 10px 0px 10px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        bottom: 0;
+        position: fixed;
+    }
     
-}
+    footer > p {
+        float: left;
+        margin: 0 5px;
+        margin-bottom: 4px;
+        font-size: 15px;
+      }
+    
+    .nehmapicon{
+        float: left;
+        display: flex;
+        justify-content:left;
+        align-content: left;
+    
+    }
+    
+    .social-footer-left{
+        padding-left: 1rem;
+        display: flex;
+        align-items: left;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    
+    .social-icons{
+        display: flex;
+        align-content: left;
+        justify-content: left;
+        list-style-type: none;
+        margin: 0 -13px;
+    }
+    
+    @media screen and (min-width:600px){
+        
+    }
