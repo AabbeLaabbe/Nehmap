@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing:border-box;
+    font-family: Bangla Sangam MN;
 }
 
 .topnav {
@@ -22,13 +23,15 @@
     margin-top: 10px;
 }
 .header-background a {
-    color:#FFAF55;
+    color:#000000;
     text-decoration: none;
     font-size: 20px;
     }
-body{
-    background-image: linear-gradient(90deg, #696969, #001833)
-}
+
+    body{
+        background-image: linear-gradient(-90deg, #6988e7, #374778)
+    }
+
 .icon{
     display: flex;
     max-width: 100px;
