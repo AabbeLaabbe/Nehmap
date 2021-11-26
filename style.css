@@ -5,23 +5,45 @@
     font-family: Bangla Sangam MN;
 }
 
-.topnav {
+.topnav{
+    width: 100%;
+    margin-top: -380px;
+    position: fixed;
+    float: right; /*Rykker tekst til højre side */
     display: flex; /* Gør at topnav-boksen bliver en flexbox --> giver muligheder for at rykke komponenter i pgl. box */
     align-items: center; /*Gør at topnav aligner efter midten af headerbackground */
     width: 100%; 
     height: 100%;
     justify-content: right; /*Rykker tekst til højre side */
-    max-width: 90%;
     float: right;
 }
-.topnav ul { /* Dette gør at den KUN styler liste i topnav */
-    display: flex; /* Flexbox gør ALTID at den styler vandret */
+
+.topnav ul{
     list-style-type: none; /*Fjerner prikker på liste */
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
 }
-.topnav ul li {
-    padding: 30px;
-    margin-top: 10px;
+
+.topnav ul li a{
+    margin-right: 5px;
+    text-decoration: none;
+    padding: 30px 20px;
 }
+
+.topnav li:hover{
+    color: black;
+    border-bottom: 2.5px solid black;
+}
+
+.topnav a:hover{
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
 .header-background a {
     color:#000000;
     text-decoration: none;
