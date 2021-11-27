@@ -55,8 +55,6 @@ body{
     font-style: italic;
 }
 
-
-
     footer {
         background-color: #a7b3d8;
         color: #000000;
@@ -67,7 +65,7 @@ body{
         flex-direction: column;
         margin-top: 25px;
         bottom: 0;
-        position: fixed;
+        position: relative;
     }
     
     footer > p {
@@ -144,7 +142,7 @@ body{
     background-color:#FFAF55;
     text-align: center;
     cursor: pointer;
-    width: 100%;
+    width: 50%;
 }
 .button:hover{
     background-color: #555;
@@ -155,14 +153,3 @@ body{
         display: block;
     }
 }
-
-
-
-
-
-
-
-
-    @media screen and (min-width:600px){
-        
-    }
