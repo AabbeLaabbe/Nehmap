@@ -1,35 +1,47 @@
 *{ /*herunder er bodystle på nav-bar nulstillet*/
-    padding: 0;
-    margin: 0;
     box-sizing:border-box;
+}
+
+body{
+    background-image: linear-gradient(-90deg, #6988e7, #374778);
     font-family: Bangla Sangam MN;
+    margin: 0;
+    padding: 0;
+
 }
 
 .topnav{
     width: 100%;
-    margin-top: -380px;
-    position: fixed;
-    float: right; /*Rykker tekst til højre side */
-    display: flex; /* Gør at topnav-boksen bliver en flexbox --> giver muligheder for at rykke komponenter i pgl. box */
-    align-items: center; /*Gør at topnav aligner efter midten af headerbackground */
-    width: 100%; 
-    height: 100%;
-    justify-content: right; /*Rykker tekst til højre side */
-    float: right;
+    overflow: hidden;
 }
 
 .topnav ul{
-    list-style-type: none; /*Fjerner prikker på liste */
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    position: relative;
+    list-style: none; /*Fjerner prikker på liste */
+    margin: 30px;
+    padding: 0px;
+    text-align: right;
 }
 
-.topnav ul li a{
-    margin-right: 5px;
+.topnav li {
+    display: inline-block;
+}
+
+.topnav li a{
+    width: 100%;
     text-decoration: none;
-    padding: 30px 20px;
+    display: inline-block;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 15px;
+
+}
+.nehmaplogo img{
+    float: left;
+    list-style: auto;
+    position: relative;
+    margin: 10px 15px 15px 10px ;
+
 }
 
 .topnav li:hover{
@@ -44,22 +56,6 @@
 }
 
 
-.header-background a {
-    color:#000000;
-    text-decoration: none;
-    font-size: 20px;
-    }
-
-    body{
-        background-image: linear-gradient(-90deg, #6988e7, #374778)
-    }
-
-.icon{
-    display: flex;
-    max-width: 100px;
-    height: 100px;
-    float: left;
-    }
 
     footer {
         background-color: #a7b3d8;
@@ -102,7 +98,7 @@
         align-content: left;
         justify-content: left;
         list-style-type: none;
-        margin: 0 -13px;
+        margin: 0 -55px;
     }
     
     @media screen and (min-width:600px){
