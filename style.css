@@ -74,6 +74,11 @@ body{
         margin-bottom: 4px;
         font-size: 15px;
       }
+
+      p a{
+          text-decoration: none;
+          color: #000000;
+      }
     
     .nehmapicon{
         float: left;
@@ -152,4 +157,33 @@ body{
         width: 100%;
         display: block;
     }
+}
+
+/* Elif's kode */
+
+h1.thick {
+    font-weight: bold;
+    color: #ffff;
+}
+
+h3.thick{
+    font-weight: bold;
+    color: #ffff;
+}
+
+p.normal {
+    font-weight: normal;
+    color: #ffff;
+    font-size: 20px;
+}
+
+p.normal a{
+    font-weight: bold;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.contact-form label{
+    color: #ffff;
+    font-size: 20px;
 }
