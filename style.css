@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 *{ /*herunder er bodystle på nav-bar nulstillet*/
     box-sizing:border-box;
     overflow-x: hidden;
@@ -12,48 +13,73 @@ body{
 .topnav{
     width: 100%;
     overflow: hidden;
+=======
+* { /*herunder er bodystle på nav-bar nulstillet*/
+    margin: 0;
+    padding: 0;
+    
 }
 
-.topnav ul{
-    list-style: none; /*Fjerner prikker på liste */
-    margin: 30px;
-    padding: 0px;
-    text-align: right;
+body{
+    background-image: linear-gradient(-90deg, #6988e7, #374778);
+    font-family: Bangla Sangam MN;
+    min-height: 100%;
+    box-sizing: border-box;
 }
 
-.topnav li {
-    display: inline-block;
-}
-
-.topnav li a{
-    width: 100%;
+header a{
     text-decoration: none;
-    display: inline-block;
+>>>>>>> Stashed changes
+}
+
+header{
+    padding: 0 20px;
+    height: 100%;
+    display: flex;
+    justify-content:right;
+}
+
+ul{
+    list-style: none; /*Fjerner prikker på liste */
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content:flex-end;
+}
+
+a{
     color: #000000;
     font-size: 20px;
-    text-align: center;
-    padding: 5px 15px;
+}
+
+ul li {
+    padding: 5px;
+    margin-left: 10px;
+
 
 }
+
+
 .nehmaplogo img{
-    float: left;
-    list-style: auto;
-    position: relative;
-    margin: 10px 15px 15px 10px ;
+    width: 20%;
+    display: block;
+    margin-top: auto;
 
 }
 
-.topnav li:hover{
+header li a:hover{
     color: black;
     border-bottom: 2.5px solid black;
 }
 
-.topnav a:hover{
+header a:hover{
     color: black;
     font-weight: bold;
     font-style: italic;
 }
 
+<<<<<<< Updated upstream
     footer {
         background-color: #a7b3d8;
         color: #000000;
@@ -95,6 +121,35 @@ body{
         list-style-type: none;
         margin: 0 -55px;
     }
+=======
+
+/*footer*/
+footer{
+    background-color: #c3d0f5;
+    height: 100;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+}
+
+footer a{
+    font-size: 18px;
+    text-decoration: none;
+}
+
+footer .copyright{
+    color: #374778;
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-top: 20px;
+}
+
+
+>>>>>>> Stashed changes
 /*Mathildes kode*/
     .frontimage {
         display: inline-block;
@@ -289,6 +344,7 @@ width: 100%;
 
 
 
+<<<<<<< Updated upstream
 
 
 
@@ -320,4 +376,46 @@ width: 100%;
 }
 .abillede2 {
   float: right;
+=======
+.mobile-menu-icon{
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu{
+    display: none;
+    position:absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh-50px);
+    width: 100%;
+}
+
+
+.open .mobile-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+@media only screen and (max-width: 600px) {
+    header nav{
+        display: none;
+    }
+
+    .mobile-menu-icon{
+        display: block;
+    }
+
+    .mobile-menu{
+        display: block;
+    }
+
+    .nehmaplogo{
+        display: block;
+    }
+>>>>>>> Stashed changes
 }
