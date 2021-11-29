@@ -2,6 +2,7 @@
     box-sizing:border-box;
 }
 
+
 body{
     background-image: linear-gradient(-90deg, #6988e7, #374778);
     font-family: Bangla Sangam MN;
@@ -175,31 +176,97 @@ body{
     }
 }
 
-/* Elif's kode */
 
-h1.thick {
-    font-weight: bold;
-    color: #ffff;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Hakans Kode*/
+.wrapper { /* Wrapperen anvendes til at centrere indhold i web-pagen*/
+width: 100%;
+}
+.img-info {
+    width: 100%;
+}
+.img-info h2 {
+    padding: 30px 30px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 44px;
+}
+.img-info p {
+    padding: 0px 30px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+.img-map {
+    width: 100%;
+}
+@media screen and (min-width:768px) {
+    .wrapper {
+        width: 600px;
+        margin: 0 auto;
+        } 
+        .img-info h2 {
+            padding: 20px 0px 0px;
+        }
+        .img-info p {
+            padding: 20px 0px 0px;
+    
+        }
+        .img-map {
+            padding-top: 30px;
+        }
 }
 
-h3.thick{
-    font-weight: bold;
-    color: #ffff;
-}
+@media screen and (min-width:1000px) {
+    .wrapper {
+        width: 1000px;
+        } 
+        .img-info {
+            width: 50%;
+            float: right;
+        }
+        .img-info h2 {
+            padding: 20px 0px 0px 30px;
+        }
+        .img-info p {
+            padding: 20px 0px 0px 30px;
+    
+        }
 
-p.normal {
-    font-weight: normal;
-    color: #ffff;
-    font-size: 20px;
-}
-
-p.normal a{
-    font-weight: bold;
-    color: #ffff;
-    text-decoration: none;
-}
-
-.contact-form label{
-    color: #ffff;
-    font-size: 20px;
+        .img-map {
+            padding-top: 0px;
+            width: 50%;
+            float: left;
+        }   
+   
 }
