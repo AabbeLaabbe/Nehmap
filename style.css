@@ -125,15 +125,20 @@ body{
 .overskrift{
     text-align: center;
 }
-.colum{
+.column{
     float: left;
-    width: 33.3%;
+    width: 30%;
     margin-bottom: 16px;
     padding: 0 8px;
 }
 .card{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.575);
     margin: 8px;
+    width: 100%;
+}
+.card img{
+    height: 400px;
+    width: 100%;
 }
 .about-section{
     padding: 50px;
@@ -167,9 +172,15 @@ body{
     background-color: #555;
 }
 @media screen and (max-width:650px){
-    .colum{
+    .column{
+        width: 200px;
+        margin-left: 70px;
+    }
+    .card{
         width: 100%;
-        display: block;
+    }
+    .card img{
+        height: 200px;
     }
 }
 
