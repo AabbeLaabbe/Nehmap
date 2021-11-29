@@ -2,17 +2,13 @@
     box-sizing:border-box;
     overflow-x: hidden;
 }
-
-
 body{
     background-image: linear-gradient(-90deg, #6988e7, #374778);
     font-family: Bangla Sangam MN;
     margin: 0;
     padding: 0;
     height: 100%;
-
 }
-
 .topnav{
     width: 100%;
     overflow: hidden;
@@ -67,9 +63,7 @@ body{
         display: flex;
         flex-direction: column;
         margin-top: 24px; 
-        
-        
-             
+         
     }
     footer > p {
         float: left;
@@ -167,7 +161,7 @@ body{
     background-color:#FFAF55;
     text-align: center;
     cursor: pointer;
-    width: 50%;
+    width: 100%;
 }
 .button:hover{
     background-color: #555;
