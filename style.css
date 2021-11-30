@@ -4,8 +4,6 @@
 body{
     background-image: linear-gradient(-90deg, #6988e7, #374778);
     font-family: Bangla Sangam MN;
-    margin: 0;
-    padding: 0;
     height: 100%;
 }
 
@@ -36,7 +34,6 @@ ul li {
 
 
 }
-
 .nehmaplogo img{
     width: 20%;
     display: block;
@@ -60,11 +57,9 @@ header a:hover{
 footer{
     background-color: #c3d0f5;
     width: 100%;
-    position: absolute;
-    bottom: 0;
+    position: sticky;
 
 }
-
 footer a{
     font-size: 18px;
     text-decoration: none;
@@ -78,9 +73,7 @@ footer .copyright{
     bottom: 0;
     right: 0;
     padding-top: 20px;
-}
-
-    
+}  
 /*Mathildes kode*/
     .frontimage {
         display: inline-block;
