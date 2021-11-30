@@ -201,7 +201,7 @@ width: 100%;
 }
 .img-info {
     width: 100%;
-    float: left;
+    float:;
 }
 .img-info h2 {
     padding: 30px 30px 20px;
@@ -215,6 +215,7 @@ width: 100%;
     font-size: 16px;
     line-height: 24px;
     float: left;
+    line-height: 24px;
 }
 .img-map {
     width: 50%;
@@ -222,7 +223,7 @@ width: 100%;
 
 
 /*hakans @ */
-@media only screen and (max-width: 650px) {
+@media only screen and (min-width: 650px) {
     
 }
 .wrapper {
@@ -296,10 +297,10 @@ width: 100%;
         margin: 0 auto;
         } 
         .img-info h2 {
-            padding: 20px 0px 0px;
+            padding: 30px 30px 20px;
         }
         .img-info p {
-            padding: 20px 0px 0px;
+            padding: 0px 30px 20px;
         }
         .img-info {
         padding-top: 0px;
@@ -307,7 +308,7 @@ width: 100%;
         float: right;
         }
         .img-map {
-            padding-top: 30px;
+            padding-top: 280px;
         }
         header nav{
             display: none;
