@@ -88,7 +88,6 @@ footer .copyright{
     bottom: 0;
     right: 0;
     padding-top: 20px; */
-}  
 /*Mathildes kode*/
     .frontimage {
         display: inline-block;
@@ -227,6 +226,7 @@ width: 100%;
     margin: 20px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 20px;
 }
 .flexcontainer {
     display: flex;
