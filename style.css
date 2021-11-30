@@ -87,14 +87,19 @@ footer .copyright{
     position: absolute;
     bottom: 0;
     right: 0;
+<<<<<<< Updated upstream
     padding-top: 20px; */
+=======
+    padding-top: 20px; 
+}  */
+
+>>>>>>> Stashed changes
 /*Mathildes kode*/
-    .frontimage {
+  .frontimage {
         display: inline-block;
         width: 250px;
         height: 250px;
         margin: 5px;
-        opacity: 0.8;
     
     }  
     .imgcontainer {
@@ -107,8 +112,9 @@ footer .copyright{
         margin-right: 200px;
         text-align: center;
         color: beige;
-    }
- 
+        
+    } 
+    
 /* Nicolas Kode */
 *, *:before, *::after{
     box-sizing: inherit;
