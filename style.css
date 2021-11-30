@@ -102,8 +102,6 @@ footer .copyright{
         color: beige;
     }
  
-
-    
 /* Nicolas Kode */
 *, *:before, *::after{
     box-sizing: inherit;
@@ -157,18 +155,8 @@ footer .copyright{
 .button:hover{
     background-color: #555;
 }
-@media screen and (max-width:650px){
-    .column{
-        width: 200px;
-        margin-left: 70px;
-    }
-    .card{
-        width: 100%;
-    }
-    .card img{
-        height: 200px;
-    }
-}
+/*Mit media@ */
+
 
 /* Elif's kode */
 
@@ -221,72 +209,8 @@ width: 100%;
 .img-map {
     width: 100%;
 }
-@media screen and (min-width:768px) {
-    .wrapper {
-        width: 600px;
-        margin: 0 auto;
-        } 
-        .img-info h2 {
-            padding: 20px 0px 0px;
-        }
-        .img-info p {
-            padding: 20px 0px 0px;
-    
-        }
-        .img-map {
-            padding-top: 30px;
-        }
-}
 
-@media screen and (min-width:1000px) {
-    .wrapper {
-        width: 1000px;
-        } 
-        .img-info {
-            width: 50%;
-            float: right;
-        }
-        .img-info h2 {
-            padding: 20px 0px 0px 30px;
-        }
-        .img-info p {
-            padding: 20px 0px 0px 30px;
-    
-        }
-
-        .img-map {
-            padding-top: 0px;
-            width: 50%;
-            float: left;
-        }   
-   
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*hakans @ */
 
 /* Anders' Kode*/
 .div {
@@ -307,19 +231,6 @@ width: 100%;
 .abillede2 {
   float: right;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .mobile-menu-icon{
     margin: auto 0;
@@ -345,24 +256,44 @@ width: 100%;
 
 }
 
-@media only screen and (max-width: 800px) {
-    header nav{
-        display: none;
+/*fælles media@ */
+@media screen and (max-width:650px){
+    .column{
+        width: 200px;
+        margin-left: 70px;
     }
-
-    .mobile-menu-icon{
-        display: block;
+    .card{
+        width: 100%;
     }
-
-    .mobile-menu{
-        display: block;
+    .card img{
+        height: 200px;
     }
-
-    .nehmaplogo{
-        display: block;
-    }
-
-    .open .mobile-menu{
-        display: flex;
-    }
+    .wrapper {
+        width: 600px;
+        margin: 0 auto;
+        } 
+        .img-info h2 {
+            padding: 20px 0px 0px;
+        }
+        .img-info p {
+            padding: 20px 0px 0px;
+        }
+        .img-map {
+            padding-top: 30px;
+        }
+        header nav{
+            display: none;
+        }
+        .mobile-menu-icon{
+            display: block;
+        }
+        .mobile-menu{
+            display: block;
+        }
+        .nehmaplogo{
+            display: block;
+        }
+        .open .mobile-menu{
+            display: flex;
+        }
 }
