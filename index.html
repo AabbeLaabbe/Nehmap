@@ -12,8 +12,8 @@
 <!--Mathilde side-->
 
 <body>
-    <section class="header">
-        <nav>
+    <header class="header">
+        <nav>   
             <a href="index.html"><img src="img/icon.png" alt="nehmaplogo"></a>
             <div class="nav-links" id="navlinks">
                 <ul>
@@ -24,8 +24,18 @@
                     <li><a href="værdiskabelse.html">Værdiskabelse</a></li>
                 </ul>
             </div>
+            <div class="dropdown">
+                <img onclick="myFunction()" class="dropbtn" src="./img/mobile-menu-icon.png" alt="">
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="index.html">Forside</a>
+                    <a href="nehmap.html">Nehmap</a>
+                    <a href="samarbejdspartner.html">Samarbejdspartner</a>
+                    <a href="teametbag.html">Teamet bag</a>
+                    <a href="værdiskabelse.html">Værdiskabelse</a>
+                </div>
+            </div>
         </nav>
-    </section>
+    </header>  
 
     <section class="main">
         <div class="imgcontainer">
@@ -43,22 +53,31 @@
         </div>
     </section>
 
-    <section class="footer">
+    <footer class="footer">
+        <div class="footer-content">
         <div class="nehmapicon">
             <img src="img/nameicon.png" alt="logo" width="100">
         </div>
-
+        
         <p>Lyngvej 21, 4600 Køge</p>
         <p>Telefon: +45 71 65 07 20 </p>
         <p>Mail: <a href="mailto:nehmap@gmail.com">nehmap@gmail.com</a></p>
-
+        </div>
         <div class="socialmedia-icons">
             <a href="https://www.instagram.com/nehmap_officelt/"><img src="img/instagram.png" alt="IG" width="30"></a>
             <a href="https://www.tiktok.com/"><img src="img/tiktok.png" alt="tiktok" width="30"></a>
         </div>
+<<<<<<< HEAD
         <p class="nehmap-copyrigt">Made with <img src="img/love.png" alt="love" width="20"> by Nehmap</p>
     </section>
 
+=======
+        <div class="copyright-container">
+            <p class="nehmap-copyrigt">Made with <img src="img/love.png" width="20"> by Nehmap</p>
+        </div>
+    </footer> 
+    <script src="./main.js"></script>
+>>>>>>> main
 </body>
 
 </html>
