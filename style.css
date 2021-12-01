@@ -269,9 +269,11 @@ p.normal a{
 }
 
 .third-column{
+    width: 470px;
 }
 
 .first-row{
+    display: block;
 
 }
 
