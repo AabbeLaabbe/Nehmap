@@ -1,57 +1,103 @@
-*{ /*herunder er bodystle på nav-bar nulstillet*/
-    box-sizing:border-box;
-}
-body{
-    background-image: linear-gradient(-90deg, #6988e7, #374778);
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
     font-family: Bangla Sangam MN;
-    height: 100%;
-}
+  }
 
-header{
-    padding: 0 20px;
-    height: 100%;
-    display: flex;
-    justify-content:right;
-}
+  .header{
+      width: 100%;
+      background-image: linear-gradient(-90deg, #6988e7, #374778);
+      background-position: center;
+      background-size: cover;
+      position: relative;
+  }
+  
+  body {
+    background-image: linear-gradient(-90deg, #6988e7, #374778);
+    min-height:100vh;
+   
+  }
+  
+  nav{
+      display: flex;
+      padding: 2% 2%;
+      justify-content: space-between;
+      align-items: center;
+    }
 
-ul{
-    list-style: none; /*Fjerner prikker på liste */
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    align-content:flex-end;
-}
+    nav img{
+        width: 100px;
+    }
 
-a{
-    color: #000000;
-    font-size: 20px;
-    text-decoration: none;
-}
+    .nav-links{
+        flex: 1;
+        text-align: right;
+    }
 
-ul li {
-    padding: 20px;
-    margin-left: 10px;
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+    }
+
+    .nav-links ul li a{
+        color: #000000;
+        text-decoration: none;
+        font-size: 20px;
+
+    }
+
+    .nav-links ul li::after{
+        content: '' ;
+        width: 0%;
+        height: 2px;
+        background: #000000;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+
+    .nav-links ul li:hover::after{
+        width: 100%;
+
+    }
+    
+
+    .footer{
+        background-color: #c3d0f5;
+        width: 100%;
+        padding: 30px 0;
+
+    }
+
+    .footer p{
+        text-align: left; 
+        padding-bottom: 30px;
+        font-size: 13px;
+        
+
+   
+    }
+    .footer a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .socialmedia-icons .nehmap-copyright p{
+        text-align: center;
+    }
+
+    .socialmedia-icons{
+        text-align: left;
+        padding: 6px;
+        
 
 
-}
-.nehmaplogo img{
-    width: 20%;
-    display: block;
-    margin-right: auto;
+    }
 
-}
-
-header li a:hover{
-    color: black;
-    border-bottom: 2.5px solid black;
-}
-
-header a:hover{
-    color: black;
-    font-weight: bold;
-    font-style: italic;
-}
-/*NY FOOTER*/ 
+/*NY FOOTER
 footer {
     background-color: #c3d0f5;
     color: #000000;
@@ -65,9 +111,9 @@ footer {
   
   footer > p {
     margin: 10px;
-  }
-
-/*footer
+  }*/ 
+/*
+footer
 footer{
     background-color: #c3d0f5;
     width: 100%;
@@ -87,8 +133,8 @@ footer .copyright{
     position: absolute;
     bottom: 0;
     right: 0;
-<<<<<<< Updated upstream
     padding-top: 20px; */
+
 /*Mathildes kode*/
   .frontimage {
         display: inline-block;
@@ -166,9 +212,16 @@ footer .copyright{
 
 
 
+
+
+
+
+
+
 /* Elif's kode */
 
 h1.thick {
+    font-size: 25px;
     font-weight: bold;
     color: #ffff;
 }
@@ -193,7 +246,66 @@ p.normal a{
 .contact-form label{
     color: #ffff;
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
 }
+
+.teenage-image img{
+    padding: 0 10px;
+    width: 60%;
+}
+
+.first-column {
+    float: left;
+    width: 150px;
+    padding: 0 30px;
+
+}
+
+.secound-column{
+    float: left;
+    width: 470px;
+    margin-left: 150px;
+}
+
+.third-column{
+}
+
+.first-row{
+
+}
+
+.first-row:after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction:column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Hakans Kode*/
 .wrapper { /* Wrapperen anvendes til at centrere indhold i web-pagen*/
@@ -241,29 +353,15 @@ width: 100%;
   float: right;
 }
 
-.mobile-menu-icon{
-    margin: auto 0;
-    display: none;
-    cursor: pointer;
-}
-
-.mobile-menu{
-    display: none;
-    position:absolute;
-    top: 60px;
-    left: 0;
-    height: calc(100vh-50px);
-    width: 100%;
-}
 
 
-.open .mobile-menu {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
 
-}
+
+
+
+
+
+
 
 /*fælles media@ */
 @media screen and (max-width:650px){
@@ -290,19 +388,33 @@ width: 100%;
         .img-map {
             padding-top: 30px;
         }
-        header nav{
+
+    .first-column , .secound-column , .third-column{
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+        /*fælles media@ */
+       .nav-links{
+            background: #374778;
+            position: absolute;
+            width: 0px;
+            top: 0;
+            text-align: left;
+            z-index: 2;
+
+        }
+    
+        .nav-links ul li{
             display: none;
+            
         }
-        .mobile-menu-icon{
-            display: block;
+
+        .nav-links ul{
+            padding: 30px;
+
         }
-        .mobile-menu{
-            display: block;
-        }
-        .nehmaplogo{
-            display: block;
-        }
-        .open .mobile-menu{
-            display: flex;
-        }
-}
+    
+    }
+        
+
