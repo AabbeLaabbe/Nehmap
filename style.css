@@ -149,11 +149,10 @@ footer .copyright{
     }
 
     .fronttext {
-        margin-left: 200px;
-        margin-right: 200px;
         text-align: center;
         color: beige;
-        
+        display: flex;
+        flex-direction: column;
     } 
     
 /* Nicolas Kode */
