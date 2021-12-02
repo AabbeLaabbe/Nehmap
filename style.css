@@ -312,11 +312,11 @@ p.normal a{
 
 /* Anders' Kode*/
 .section-one {
-    padding: 50px;
-    margin: 20px;
+    padding: 5px;
+    margin: 10px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 20px;
+    font-size: 25px;
 }
 .flexcontainer {
     display: flex;
