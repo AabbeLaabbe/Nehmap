@@ -329,6 +329,11 @@ p.normal a{
 .abillede2 {
   float: right;
 }
+
+.p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
 /*fælles media@ */
 @media screen and (max-width:650px){
     * {box-sizing: border-box;}
